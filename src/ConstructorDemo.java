@@ -8,8 +8,14 @@ public class ConstructorDemo {
     public ConstructorDemo(){
         System.out.println("Default Constructor");
     }
+
+    // If we right only parametric constructor without default constructor, there will br compile error and java suggest to create default one.
+    public ConstructorDemo(int q){
+        System.out.println("Parameter Constructor");
+    }
     public static void main(String[] args) throws Exception {
         C c = new C();
+        ConstructorDemo cd = new ConstructorDemo();
     }
 }
 
