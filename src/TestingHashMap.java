@@ -75,11 +75,5 @@ public class TestingHashMap {
         System.out.println("getting new p1");
         System.out.println(m.get(new Person("Amit", 11, "Male")));
 
-//        List<String> persons = new ArrayList();
-//        persons.add("kjafh");
-//        persons.add("iqurtyoe");
-////        String s1 = "Animals";
-//        System.out.println(persons);
-
     }
 }
