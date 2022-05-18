@@ -1,3 +1,6 @@
+/**
+ * Preference int >> long >> double >> Integer >> Long
+ */
 public class MethodOverloadingDemo {
 //    public void print(int n){
 //        System.out.println("Printing int = " + n);
@@ -28,5 +31,4 @@ public class MethodOverloadingDemo {
         m1.print(7);
         m1.print("Suupp");
     }
-//     int >> long >> double >> Integer >> Long
 }

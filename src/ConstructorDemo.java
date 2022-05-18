@@ -1,8 +1,9 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
 /**
- * In Constuctor exception can’t handle it using try-catch mechanism as super() will be first line executed implicitly. That’s why we need to throw the exception.
- * While doing this we need to throw exception from child classes also. For child class we can throw same exception or parent of tht exception.
+ * In Constructor exception can’t handle it using try-catch mechanism as super() will be first line executed implicitly. That’s why we need to throw the exception.
+ * While doing this we need to throw exception from child classes also. For child class we can throw same exception or parent of that exception.
+ * If the parent class constructor does not throw any exception then the child class can throw any exception or throw nothing.
  */
 public class ConstructorDemo {
     public ConstructorDemo(){
