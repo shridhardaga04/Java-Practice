@@ -91,17 +91,17 @@ public class TestingHashMap {
         m.put(p3, p3.getAge());
         m.put(p4, p4.getAge());
 //        m.put(null,85);
-//        System.out.print("Printing value for null key: ");
-//        System.out.println(m.get(null));
-//
-//        System.out.println("display person");
-//        System.out.println(m);
-//
-//        System.out.println("getting p1");
-//        System.out.println(m.get(p1));
-//
-//        System.out.println("getting new p1");
-//        System.out.println(m.get(new Person("Amit", 11, "Male")));
+        System.out.print("Printing value for null key: ");
+        System.out.println(m.get(null));
+
+        System.out.println("display person");
+        System.out.println(m);
+
+        System.out.println("getting p1");
+        System.out.println(m.get(p1));
+
+        System.out.println("getting new p1");
+        System.out.println(m.get(new Person("Amit", 11, "Male")));
 
         System.out.println("Iterating HashMap:");
         for(Map.Entry<Person, Integer> e : m.entrySet()){
