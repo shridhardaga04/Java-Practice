@@ -30,6 +30,13 @@ public class EncapsulationDemo {
         else
             System.out.println("Age can not be negative or greater than 110");
     }
+    @Override
+    public String toString() {
+        return "EncapsulationDemo{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     public static void main(String[] args) {
         EncapsulationDemo e = new EncapsulationDemo(); // Default Constructor with no para and empty body will be written by java

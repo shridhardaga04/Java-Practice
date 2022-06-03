@@ -16,6 +16,8 @@ public class MethodOverridingDemo {
         Parent p = new Child();
         p.display();
         p.staticMethod();
+//        Child.staticMethod();
+//        Parent.staticMethod();
     }
 }
 

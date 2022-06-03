@@ -1,6 +1,6 @@
 /**
  * TreeMap stores data in sorted manner.
- * It can not contain NULL key, as in TreeMap data is first compare by compareTo() method (Comaparable Interface implement)
+ * It can not contain NULL key, as in TreeMap data is first compare by compareTo() method (Comparable Interface implement)
  * So if NULL key present it will give NPE
  * We can use Comparator Interface => compare() Method to sort data also for that TreeMap add constructor of class where sort/compare logic is written declaration - ... TreeMap<>(new SortedClassName)
  *
