@@ -2,6 +2,8 @@
  * Interface can have method body for default and static functions. Cannot have private or protected methods
  * We can override default functions in concrete class, but cannot override static functions.
  * As variables declared in interface are Public final and static.
+ * Interface Extends Interface , Interface cannot Extend class
+ * Class Implements Interface , Class cannot Extend Interface
  */
 
 interface TestInterface {
